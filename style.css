@@ -73,6 +73,11 @@ body {
   display: flex;
 }
 
+.stamp img{
+  width: 116px;
+  max-width: 100%;
+}
+
 .copyright {
   font-size: 15px;
   line-height: 25px;
