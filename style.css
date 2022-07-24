@@ -9,6 +9,7 @@
 body {
   font-family: 'Inter', sans-serif;
   color: #2C2B2A;
+  background: #F8F7F6;
 }
 
 .container {
@@ -91,7 +92,7 @@ body {
 }
 
 .signature {
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 .two-third {
