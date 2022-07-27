@@ -43,7 +43,7 @@ body {
 
 .button {
   border-radius: 6px;
-  padding: 8px 24px;
+  /* padding: 8px 24px; */
   text-align: center;
   color: #72716D;
   text-decoration: none;
