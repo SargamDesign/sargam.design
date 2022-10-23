@@ -1,7 +1,7 @@
 {
   "name": "sargam.design",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sargam is a free-form design improvisation framework and component library. Sargam gives you the building blocks you need to craft high-quality websites and apps with speed and scale.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
