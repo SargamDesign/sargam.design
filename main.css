@@ -1,39 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
 :root {
 --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
- body {
-  font-size: 14px;   
-  line-height: 20px;
-  background: var(--background-subtle);
-  font-family: var(--system-ui);
-  color: var(--text-primary);
-  margin: 24px;
+body {
+font-size: 14px;   
+line-height: 20px;
+background: var(--background);
+font-family: var(--system-ui);
+color: var(--text-primary);
+margin: 3.2rem;
 }
 
 main {
-max-width: 620px;
-position: relative;
+max-width: 470px;
+margin: 0 auto;
 }
 
 h1 {
 font-family: var(--system-ui);
 font-style: normal;
 font-weight: 400;
-font-size: 28px;
-line-height: 36px;
+font-size: 22px;
+line-height: 34px;
 letter-spacing: -0.3px;
 margin: 0 0 24px 0;
 padding: 0px;
-}
-
-li {
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 34px;
 }
 
 img.logo {
@@ -58,16 +49,16 @@ a:visited {
   text-decoration: none;
 }
 
-hr {
-  height: 0.2em;
-  border: 0;
-  background-color: var(--border-muted);
-  margin-top: 24px;
+.footer{
+color: var(--text-secondary);
+padding: 1.6rem;
+text-align: center;
+font-weight: normal;
+font-style: normal;
+font-family: var(--system-ui);
+font-size: 13px;
+line-height: 18px;
+border-top: 1px solid var(--silver7);
+margin-top: 32px;
 }
-footer p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 18px;
-  color: var(--text-secondary);
-}
+
