@@ -8,7 +8,7 @@ line-height: 20px;
 background: var(--background);
 font-family: var(--system-ui);
 color: var(--text-primary);
-margin: 3.2rem;
+margin: 2.4rem;
 }
 
 main {
@@ -51,8 +51,7 @@ a:visited {
 
 .footer{
 color: var(--text-secondary);
-padding: 1.6rem;
-text-align: center;
+padding: 1.6rem 0;
 font-weight: normal;
 font-style: normal;
 font-family: var(--system-ui);
@@ -60,5 +59,6 @@ font-size: 13px;
 line-height: 18px;
 border-top: 1px solid var(--silver7);
 margin-top: 32px;
+text-align: center;
 }
 
