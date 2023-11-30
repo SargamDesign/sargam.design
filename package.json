@@ -10,7 +10,9 @@
   },
   "devDependencies": {
     "@sargamdesign/colors": "^2.1.0",
+    "gsap": "^3.12.3",
     "sargam-icons": "^1.4.3",
+    "three": "^0.159.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }
