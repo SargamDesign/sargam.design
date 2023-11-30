@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/SargamDesign/sargam.design#readme",
   "dependencies": {
-    "@sargamdesign/colors": "^1.0.0",
-    "sargam-icons": "^1.1.0"
+    "@sargamdesign/colors": "^2.1.0",
+    "sargam-icons": "^1.4.3"
   }
 }
