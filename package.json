@@ -1,23 +1,17 @@
 {
   "name": "sargam.design",
-  "version": "1.0.0",
-  "description": "A free-form design improv framework that gives you the lego bricks you need to build high-quality websites and apps with speed and scalability.",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SargamDesign/sargam.design.git"
-  },
-  "author": "Abhimanyu Rana",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SargamDesign/sargam.design/issues"
-  },
-  "homepage": "https://github.com/SargamDesign/sargam.design#readme",
-  "dependencies": {
+  "devDependencies": {
     "@sargamdesign/colors": "^2.1.0",
-    "sargam-icons": "^1.4.3"
+    "sargam-icons": "^1.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
   }
 }

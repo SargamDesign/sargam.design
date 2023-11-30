@@ -1,0 +1,64 @@
+:root {
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  body {
+  font-size: 14px;   
+  line-height: 20px;
+  background: var(--background);
+  font-family: var(--system-ui);
+  color: var(--text-primary);
+  margin: 1.2rem;
+  }
+  
+  main {
+  max-width: 470px;
+  margin: 0;
+  }
+  
+  h1 {
+  font-family: var(--system-ui);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  margin: 0 0 16px 0;
+  padding: 0px;
+  }
+  
+  img.logo {
+    margin-bottom: 16px;
+  }
+  
+  a {
+    color: var(--link);
+    background-color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--link-hover);
+    background-color: inherit;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: var(--link-visited);
+    background-color: inherit;
+    text-decoration: none;
+  }
+  
+  .footer{
+  color: var(--text-secondary);
+  padding: 0.8rem 0;
+  font-weight: normal;
+  font-style: normal;
+  font-family: var(--system-ui);
+  font-size: 13px;
+  line-height: 18px;
+  border-top: 1px solid var(--silver7);
+  margin-top: 24px;
+  }
+  
+  
